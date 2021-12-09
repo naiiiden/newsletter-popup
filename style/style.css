@@ -42,7 +42,7 @@ img {
 
 .container2 {
   padding: 1rem 0;
-  height: 40vh;
+  height: 20rem;
   background-color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,6 +106,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
   gap: .5rem;
   padding: .5rem 0;
 }
@@ -156,10 +157,10 @@ img {
   .container1 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    height: 20vh;
+    height: 12.5rem;
   }
   .container2 {
-    height: 40vh;
+    height: 21rem;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
