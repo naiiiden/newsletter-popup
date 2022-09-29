@@ -29,7 +29,7 @@ img {
 }
 .container1 h1 {
   color: #fff;
-  font-size: 24px;
+  font-size: 1.5rem;
   width: 16rem;
 }
 
@@ -45,7 +45,7 @@ img {
 }
 .container2 .description {
   color: #595959;
-  font-size: 12px;
+  font-size: 1.25rem;
   width: 20rem;
   text-align: center;
 }
@@ -71,7 +71,7 @@ img {
 }
 .container2 .spam {
   color: #595959;
-  font-size: 12px;
+  font-size: 0.75rem;
   width: 20rem;
 }
 .container2 .avatar {
@@ -90,16 +90,16 @@ img {
 }
 .container2 .name {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .container2 .title {
   color: #595959;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .container2 .quote {
   color: #595959;
   text-align: center;
-  font-size: 12px;
+  font-size: 0.75rem;
   width: 20rem;
   text-align: center;
 }
