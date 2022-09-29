@@ -2,14 +2,13 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   width: 100%;
   height: 100%;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
 }
 
 img {
@@ -23,17 +22,10 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
-
 .container1 h1 {
   color: #fff;
   font-size: 24px;
@@ -44,97 +36,65 @@ img {
   padding: 1rem 0;
   height: 20rem;
   background-color: #fff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   gap: 1rem;
 }
-
 .container2 .description {
   color: grey;
   font-size: 12px;
   width: 20rem;
   text-align: center;
 }
-
 .container2 #email {
   font-family: inherit;
-  padding: .65rem;
-  border: 0.5px solid #dbd6d6;
+  padding: 0.65rem;
+  border: 0.5px solid rgb(219, 214, 214);
   border-radius: 5px;
 }
-
 .container2 #button {
   background-color: #2355f2;
   color: #fff;
   border: none;
   font-family: inherit;
   font-weight: 600;
-  padding: .75rem 1rem;
+  padding: 0.75rem 1rem;
   border-radius: 5px;
 }
-
 .container2 form {
   width: 20rem;
-  padding: .5rem 0;
+  padding: 0.5rem 0;
   margin: auto;
 }
-
 .container2 .spam {
-  color: #afaeae;
+  color: rgb(175, 174, 174);
   font-size: 12px;
   width: 20rem;
 }
-
 .container2 .avatar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  gap: .5rem;
-  padding: .5rem 0;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
 }
-
 .container2 .avatar_name {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: .5rem;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
 }
-
 .container2 .name {
   font-weight: 700;
   font-size: 14px;
 }
-
 .container2 .title {
   color: gray;
   font-size: 14px;
 }
-
 .container2 .quote {
   color: grey;
   text-align: center;
@@ -145,13 +105,8 @@ img {
 
 @media screen and (min-width: 768px) {
   .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 45%;
   }
   .container1 {
@@ -166,30 +121,21 @@ img {
   }
   body {
     min-height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     background-image: url("../Assets/Background.png");
     background-repeat: no-repeat;
     background-size: cover;
   }
 }
-
 @media screen and (min-width: 1023px) {
   .container {
     width: 35%;
   }
 }
-
 @media screen and (min-width: 1440px) {
   .container {
     width: 25%;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
