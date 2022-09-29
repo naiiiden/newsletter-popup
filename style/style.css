@@ -45,7 +45,7 @@ img {
 }
 .container2 .description {
   color: #595959;
-  font-size: 1.25rem;
+  font-size: 1rem;
   width: 20rem;
   text-align: center;
 }
@@ -116,7 +116,7 @@ img {
     height: 12.5rem;
   }
   .container2 {
-    height: 23rem;
+    height: 25rem;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
   }
